@@ -5,115 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Аксы Кызматтары</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f6f8;
-            color: #333;
-        }
-        header {
-            background-color: #008080;
-            color: white;
-            text-align: center;
-            padding: 20px 10px;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 24px;
-            font-weight: 800;
-            letter-spacing: 1px;
-        }
-        header p {
-            margin: 5px 0 0 0;
-            font-size: 14px;
-            opacity: 0.9;
-        }
-        .container {
-            padding: 15px;
-        }
-        .welcome-text {
-            font-size: 16px;
-            text-align: center;
-            margin-bottom: 20px;
-            color: #555;
-            font-weight: 500;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 12px;
-        }
-        .card {
-            background: white;
-            border-radius: 12px;
-            padding: 20px 10px;
-            text-align: center;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-            font-size: 14px;
-            border: 1px solid #eef0f2;
-            transition: transform 0.1s;
-        }
-        .card:active {
-            background-color: #e0f2f1;
-            transform: scale(0.97);
-        }
-        .icon {
-            font-size: 32px;
-            margin-bottom: 8px;
-            display: block;
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f6f8; color: #333; }
+        header { background-color: #008080; color: white; text-align: center; padding: 20px 10px; }
+        header h1 { margin: 0; font-size: 24px; font-weight: 800; letter-spacing: 1px; }
+        header p { margin: 5px 0 0 0; font-size: 14px; opacity: 0.9; }
+        .container { padding: 15px; }
+        .welcome-text { font-size: 16px; text-align: center; margin-bottom: 20px; color: #555; font-weight: 500; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 25px; }
+        .card { background: white; border-radius: 12px; padding: 20px 10px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); text-decoration: none; color: #333; font-weight: bold; font-size: 14px; border: 1px solid #eef0f2; }
+        .card:active { background-color: #e0f2f1; transform: scale(0.97); }
+        .icon { font-size: 32px; margin-bottom: 8px; display: block; }
+        .admin-box { background: #e8f5e9; border: 2px dashed #25D366; border-radius: 14px; padding: 20px; text-align: center; margin-top: 20px; }
+        .admin-box h3 { margin: 0 0 8px 0; color: #2e7d32; font-size: 18px; }
+        .admin-box p { margin: 0 15px 15px 15px; color: #555; font-size: 14px; }
+        .whatsapp-add-btn { display: inline-block; background-color: #25D366; color: white; text-decoration: none; padding: 12px 20px; border-radius: 30px; font-weight: bold; font-size: 15px; box-shadow: 0 4px 10px rgba(37,211,102,0.3); }
     </style>
 </head>
 <body>
-
     <header>
-        <h1>АКСЫ КЫЗМАТТАРЫ</h1>
-        <p>Бардык кызматтар бир жерде</p>
+        <h1>%D0%90%D0%9A%D0%A1%D0%AB %D0%9A%D0%AB%D0%97%D0%9C%D0%90%D0%A2%D0%A2%D0%90%D0%A0%D0%AB</h1>
+        <p>%D0%91%D0%B0%D1%80%D0%B4%D1%8B%D0%BA %D0%BA%D1%8B%D0%B7%D0%BC%D0%B0%D1%82%D1%82%D0%B0%D1%80 %D0%B1%D0%B1%D0%B8%D1%80 %D0%B6%D0%B5%D1%80%D0%B4%D0%B5</p>
     </header>
-
     <div class="container">
-        <p class="welcome-text">Керектүү категорияны тандаңыз:</p>
-        
+        <p class="welcome-text">%D0%9A%D0%B5%D1%80%D0%B5%D0%BA%D1%82%D1%AF%D2%AF %D0%BA%D0%B0%D1%82%D0%B5%D0%B3%D0%BE%D1%80%D0%B8%D1%8F%D0%BD%D1%8B %D1%82%D0%B0%D0%BD%D0%B4%D0%B0%D2%BB%D1%8B%D0%B7:</p>
         <div class="grid">
-            <a href="#" class="card">
-                <span class="icon">🌱</span>
-                Көчөттөр / Сатуу
-            </a>
-            <a href="#" class="card">
-                <span class="icon">🎉</span>
-                Той-топур кызматтары
-            </a>
-            <a href="#" class="card">
-                <span class="icon">🚗</span>
-                Авто кызматтары
-            </a>
-            <a href="#" class="card">
-                <span class="icon">🛠️</span>
-                Курулуш / Усталар
-            </a>
-            <a href="#" class="card">
-                <span class="icon">🚕</span>
-                Такси / Транспорт
-            </a>
-            <a href="#" class="card">
-                <span class="icon">⚡</span>
-                Электриктер
-            </a>
-            <a href="#" class="card">
-                <span class="icon">🚰</span>
-                Сантехниктер
-            </a>
-            <a href="#" class="card">
-                <span class="icon">✂️</span>
-                Сулуулук / Чач тарач
-            </a>
+            <a href="kochohttohr.html" class="card"><span class="icon">&#127183;</span>%D0%9A%D1%8A%D1%87%D1%8A%D1%82%D1%82%D1%8A%D1%80 / %D0%A1%D0%B0%D1%82%D1%83%D1%83</a>
+            <a href="toy-topur.html" class="card"><span class="icon">&#127881;</span>%D0%A2%D0%BE%D0%B9-%D1%82%D0%BE%D0%BF%D1%83%D1%80</a>
+            <a href="#" class="card"><span class="icon">&#128663;</span>%D0%90%D0%B2%D1%82%D0%BE %D0%BA%D1%8B%D0%B7%D0%BC%D0%B0%D1%82%D1%82%D0%B0%D1%80%D1%8B</a>
+            <a href="kurulush.html" class="card"><span class="icon">&#128736;</span>%D0%9A%D1%83%D1%80%D1%83%D0%25B8%D1%83%D1%88 / %D0%A3%D1%81%D1%82%D0%B0%D0%BB%D0%B0%D1%80</a>
+            <a href="taxi.html" class="card"><span class="icon">&#128661;</span>%D0%A2%D0%B0%D0%BA%D1%81%D0%B8 / %D0%A2%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82</a>
+            <a href="#" class="card"><span class="icon">&#9889;</span>%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D0%BA%D1%82%D0%B5%D1%80</a>
+            <a href="#" class="card"><span class="icon">&#128704;</span>%D0%A1%D0%B0%D0%BD%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D1%82%D0%B5%D1%80</a>
+            <a href="#" class="card"><span class="icon">&#9986;</span>%D0%A1%D1%83%D0%BB%D1%83%D1%83%D0%BB%D1%83%D0%BA</a>
+        </div>
+        <div class="admin-box">
+            <h3>%D0%A1%D0%B8%D0%B7 %D0%B4%D0%B0 %D0%BA%D0%B3%D1%8B%D0%B7%D0%BC%D0%B0%D1%82 %D0%BA%D1%84%D1%80%D1%81%D1%83%D1%82%D1%83%D1%81%D1%83%D0%B7%D0%B1%D1%83?</h3>
+            <p>%D3%A8%D0%B7%D2%AF%D2%BB%D2%AF%D0%B7%D0%B4%D2%AF%D0%BD %D0%BA%D1%8B%D0%B7%D0%BC%D0%B0%D1%82%D1%8B%D2%BB%D1%8B%D0%B7%D0%B4%D1%8B %D1%81%D0%B0%D0%B9%D1%82%D0%BA%D0%B0 %D0%BA%D0%BE%D1%88%D1%83%D1%83 %D2%AF%D1%87%D2%AF%D0%BD %D0%B1%D0%B8%D0%B7%D0%B3%D0%B5 %D0%B6%D0%B0%D0%B7%D1%8B%D2%BB%D1%8B%D0%B7!</p>
+            <a href="https://wa.me" class="whatsapp-add-btn" target="_blank">&#128994; %D0%A1%D0%B0%D0%B9%D1%82%D0%BA%D0%B0 %D0%BA%D0%BE%D1%88%D1%83%D0%BB%D1%83%D1%83</a>
         </div>
     </div>
-
 </body>
 </html>
-
